@@ -596,6 +596,18 @@ components:
       type: apiKey
       name: api_key
       in: header
+  examples:
+    Franz:
+      value:
+        id: 1
+        username: franzl
+        firstName: Franz
+        lastName: Huber
+        email: franz.huber@gmail.com
+        password: secret
+        phone: +43664123456789
+        userStatus: 2
+
   schemas:
     Order:
       type: object
